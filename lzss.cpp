@@ -11,10 +11,10 @@ using std::string;
 
 
 void help() {
-	cout << "LZSS Compressor/Decompressor" << endl << endl;
+    cout << "LZSS Compressor/Decompressor" << endl << endl;
     cout << "lzss [-c|-d] input_file output_file" << endl << endl;
-	cout << "  -c   compress input_file to output_file" << endl;
-	cout << "  -d   decompress input_file to output_file" << endl << endl;
+    cout << "  -c   compress input_file to output_file" << endl;
+    cout << "  -d   decompress input_file to output_file" << endl << endl;
 }
 
 
@@ -290,7 +290,7 @@ int main(int argc, const char *argv[]) {
         exit(EXIT_SUCCESS);
     }
 
-	const string mode(argv[1]);
+    const string mode(argv[1]);
     const string input_file(argv[2]);
     const string output_file(argv[3]);
 
